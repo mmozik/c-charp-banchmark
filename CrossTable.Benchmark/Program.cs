@@ -19,7 +19,7 @@ class Program {
 }
 
 
-[SimpleJob(RuntimeMoniker.Net60, warmupCount: 2, targetCount: 5)]
+[SimpleJob(RuntimeMoniker.Net60, warmupCount: 2, iterationCount: 5)]
 [MeanColumn]
 [MemoryDiagnoser]
 public class CrossTableBenchmark {
